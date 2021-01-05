@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA DOM-2</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ 
+    <div class="modal lock-padding" id="modal">
+        <div class="modal__pos">
+            <button class="modal__button button"><a class="modal__button--a" href="#popup">OPEN CSS</a></button>
+            <button class="modal__button button popup-link"><a class="modal__button--a" href="#popup">OPEN JS</a></button>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup__content">
+            <a href="#modal" class="popup__close">CLOSE</a>
+            <h1 class="popup__h1">Popup 1</h1>
+            <p class="popup__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias magni eum soluta perspiciatis consequatur porro, sapiente hic quam architecto. Veniam velit expedita quaerat itaque repellendus dolores laudantium aut dolore.</p>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup__content">
+            <a href="#modal" class="popup__close close-popup">CLOSE</a>
+            <h1 class="popup__h1">Popup 1</h1>
+            <p class="popup__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias magni eum soluta perspiciatis consequatur porro, sapiente hic quam architecto. Veniam velit expedita quaerat itaque repellendus dolores laudantium aut dolore.</p>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
